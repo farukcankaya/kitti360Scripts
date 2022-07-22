@@ -23,7 +23,7 @@ import numpy as np
 try:
     import matplotlib.colors
     import matplotlib.cm
-    from PIL import PILLOW_VERSION
+    from PIL import __version__ as PILLOW_VERSION
     from PIL import Image
 except:
     pass
